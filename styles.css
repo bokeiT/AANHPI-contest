@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    font-family: 'gowun';
+    font-size: 2em;
+    line-height: 1.8em;
+    color: #C7C7CD
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-image-position {
+    padding: 5%;
+    height:50vh;
+    z-index:3;
+  }
+
+  .left-arrow-position{
+      width:2%;
+
+
+  }
+  .right-arrow-position{
+
+      width:2%;
+  }
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.little-scientists{
+    width: 35%;
+    z-index:2;
+}
+.gradient{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    width:35%;
+    top: 80%;
+   left:50%;
+   z-index:1;
+}
+
+.intro{
+    display: block;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:10%;
+    text-align:center;  
+}
+.text-container {
+    display:none;
+    padding:10% 20%;
+    text-align:center;
+}
+.aoulogo{
+    display:block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.credits{
+    display:block;
+    padding: 5%;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.exit{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:5%;
+    left:96%;
+    width:2.5%;
+}
+
+.instructions{
+    display:block;
+    padding: 3%;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 0.4em;
+  text-align: center;
+}
+
+.introInstructions{
+    display:block;
+    padding: 3%;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 0.5em;
+  text-align: center;
+}
+@font-face {
+    font-family: 'gowun';
+    src: url(links-and-images/GowunBatang-Regular.woff) format('woff');
+    font-style:normal;
+    font-weight: 300;
+}
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.signature {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    left:95vw;
+    width:4.5%;
+    bottom: 2%;
+  }
